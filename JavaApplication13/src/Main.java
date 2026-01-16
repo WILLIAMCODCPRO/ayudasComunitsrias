@@ -8,7 +8,7 @@ public class Main {
         do {
             Menu.mostrarMenuPrincipal();
             opcionUsuario = pedirDatos.pedirEntero();
-            X
+            Xx
         } while (opcionUsuario != 7);
     }
 }
