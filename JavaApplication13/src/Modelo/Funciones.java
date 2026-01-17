@@ -1,11 +1,13 @@
 package Modelo;
 
+import java.util.ArrayList;
+
 
 public abstract class Funciones {
-    public abstract void registarColaborador(int opcion);
+    public abstract void registrarColaborador(ArrayList<String> datosColaborador);
     public abstract void VerColaborador();
-    public abstract void registarEmpleado(int opcion);
+    public abstract void registrarEmpleado(ArrayList<String> datosEmpleado);
     public abstract void VerEmpleado();
-    public abstract void registarBeneficiario(int opcion);
+    public abstract void registrarBeneficiario(ArrayList<String> datosBeneficiario);
     public abstract void VerBeneficiario();
 }

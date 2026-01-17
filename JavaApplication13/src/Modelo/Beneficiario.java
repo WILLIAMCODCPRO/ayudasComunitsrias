@@ -11,4 +11,9 @@ public class Beneficiario extends Persona{
     public int getCantidadAyudasMes() {
         return cantidadAyudasMes;
     }
+    
+    @Override
+    public void presentarse() {
+        System.out.println("Hola, soy " + getNombre() + " y soy un Beneficiario");
+    }
 }

@@ -1,10 +1,11 @@
 package Controlador;
-import Modelo.Empleado;
-import Modelo.Colabolador;
-import Modelo.Beneficiario;
+import Modelo.Datos;
 
 public class guardarDatos {
-    static Empleado e = null;
-    static Colabolador c =null;
-    static Beneficiario b=null;
+   private static  Datos baseDeDatos = new Datos();
+
+    public static Datos getBaseDeDatos() {
+        return baseDeDatos;
+    }
+   
 }

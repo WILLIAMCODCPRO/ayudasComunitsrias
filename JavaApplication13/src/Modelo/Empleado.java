@@ -24,4 +24,11 @@ public class Empleado extends Persona{
     public String getHorario() {
         return horario;
     }
+
+    @Override
+    public void presentarse() {
+        System.out.println("Hola, soy " + getNombre() + " y soy un empleado");
+    }
+    
+    
 }
